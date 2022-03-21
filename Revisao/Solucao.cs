@@ -6,6 +6,9 @@ namespace Revisao
 {
     public class Solucao
     {
+        public void Ex1()
+        {
 
+        }
     }
 }
