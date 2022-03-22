@@ -18,7 +18,7 @@ namespace Revisao
         }
         public void Ex2()
         {
-        double raio, area, pi = 3.14159;//variaveis
+        double raio, area, pi = 3.14159;
 
             Console.WriteLine("Digite o valor do raio de um circulo:\n");
             raio = float.Parse(Console.ReadLine());
