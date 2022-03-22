@@ -79,6 +79,7 @@ namespace Revisao
         }
         public void Ex6()
         {
+            Console.WriteLine("Exercício 6\n");
             float triangulo(float n1, float n2)
             {
                 return (n1 * n2) / 2;
