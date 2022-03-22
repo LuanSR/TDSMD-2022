@@ -16,7 +16,7 @@ namespace Revisao
                 soma = num1 + num2;
                 Console.WriteLine("A soma dos numero e igual a: {0}", soma);
         }
-        public void Ex2()
+        public void Ex2().
         {
 
         }
