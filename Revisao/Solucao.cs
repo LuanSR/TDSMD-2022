@@ -37,10 +37,21 @@ namespace Revisao
             diferenca = ((A * B) - (C * D));
             Console.WriteLine("A diferença do produto de A e B pelo produto de C e D e de {0}", diferenca);
         }
-        public void Ex4()
+        public void Ex4(
         {
+            int numf;
+            float numh, valorh, sal;
 
+            Console.WriteLine("Digite o numero do funcionario: ");
+            numf = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o numero de horas trabalhadas: ");
+            numh = float.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor ganho por hora: ");
+            valorh = float.Parse(Console.ReadLine());
+            sal = numh * valorh;
+            Console.WriteLine("\nNumero: {0}\n\nSalario: R${1:F2}\n", numf, sal);
         }
+        
     }
 }
 
