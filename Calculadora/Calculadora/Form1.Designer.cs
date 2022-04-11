@@ -289,7 +289,7 @@ namespace Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(352, 311);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.btnIgual);
@@ -316,6 +316,7 @@ namespace Calculadora
             this.Controls.Add(this.btnC);
             this.Controls.Add(this.btnOito);
             this.Controls.Add(this.btnSete);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
