@@ -122,7 +122,7 @@ namespace ProvaDiagnostica
             senhaCerta = "cotil";
             Console.WriteLine("Digite uma senha:");
             senha = Console.ReadLine();
-            while (senha != senhaCerta);
+            while (senha != senhaCerta)
             {
                 Console.WriteLine("Senha Incorreta!");
                 senha = Console.ReadLine();
@@ -137,9 +137,10 @@ namespace ProvaDiagnostica
 
             Console.WriteLine("Digite o número de vezes que um valor será lido");
             n = int.Parse(Console.ReadLine());
-            for (i = 0; i < n; i++) ;
+            for (i = 0; i < n; i++)
             {
                 Console.WriteLine("Digite um número: ");
+                
                 x = int.Parse(Console.ReadLine());
                 if (x >= 1 && x <= 10)
                     dentro++;

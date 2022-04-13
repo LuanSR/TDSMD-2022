@@ -10,6 +10,7 @@ namespace ProvaDiagnostica
             Solucao ProvaDiag = new Solucao();
 
             Console.WriteLine("Prova Diagnóstica");
+
             ProvaDiag.Ex1();
             ProvaDiag.Ex2();
             ProvaDiag.Ex3();
